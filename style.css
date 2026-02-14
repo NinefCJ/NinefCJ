@@ -1,0 +1,85 @@
+/* 基础样式 */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 头像区域 */
+.avatar-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin: 20px 0 10px;
+    color: #2c3e50;
+}
+
+.tagline {
+    color: #7f8c8d;
+    font-style: italic;
+}
+
+/* 内容区块 */
+.section {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h2 {
+    border-left: 4px solid #3498db;
+    padding-left: 10px;
+    color: #2c3e50;
+}
+
+/* 项目样式 */
+.project {
+    border: 1px solid #eee;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+/* 链接样式 */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 列表样式 */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
