@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    line-height: 1.6;
+    line-height: 1.5;
     color: #333;
     background-color: #f8f9fa;
 }
@@ -64,10 +64,10 @@ body {
 /* 英雄区样式 */
 .hero {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    color: blue;
     text-align: center;
     padding: 120px 20px 80px;
-    margin-top: 60px; /* 给导航栏留出空间 */
+    margin-top: 55px; /* 给导航栏留出空间 */
 }
 
 .hero-avatar {
@@ -87,7 +87,7 @@ body {
     display: inline-block;
     background: #fff;
     color: #333;
-    padding: 12px 30px;
+    padding: 13px 30px;
     border-radius: 30px;
     text-decoration: none;
     margin-top: 20px;
@@ -100,7 +100,7 @@ body {
 
 /* 内容区块通用样式 */
 .section {
-    padding: 80px 0;
+    padding: 82px 0;
 }
 
 .section h2 {
@@ -120,7 +120,7 @@ body {
 .project-card {
     background: #fff;
     padding: 30px;
-    border-radius: 20px;
+    border-radius: 25px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -175,4 +175,5 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
 
