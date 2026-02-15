@@ -64,9 +64,9 @@ body {
 /* 英雄区样式 */
 .hero {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: blue;
+    color: white;
     text-align: center;
-    padding: 120px 20px 80px;
+    padding: 125px 25px 75px;
     margin-top: 55px; /* 给导航栏留出空间 */
 }
 
@@ -175,6 +175,7 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
 
 
 
